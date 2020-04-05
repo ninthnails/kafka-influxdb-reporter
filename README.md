@@ -135,6 +135,7 @@ By default all stats are reported. You can disabled some with the following prop
 ![Grafana](./dashboards/Grafana-Kafka-Cluster-Overview.png)
 
 ## Versions
+* 0.5.0: Upgrade Apache Kafka version to 2.3.1
 * 0.4.0: Support redundant Influx Database configuration with full backward compatibility on previous config; Add basic unit tests
 * 0.3.0: Add option to snap reporting time to a predictable (quantized) period, e.g. on 0, 10, 20, ... seconds past the top of the minute 
 * 0.2.0-rc0: POST Truncation bug fix, resolve 400 from Influx where ClusterID sent as numeric
